@@ -1,0 +1,493 @@
+ 
+-----------------------------------------------------------------------
+ Keywords: 26
+-----------------------------------------------------------------------
+"_ALPHAPREMULTIPLY_ON",
+"_AXF_BRDF_TYPE_SVBRDF",
+"_BLENDMODE_ALPHA",
+"_BLENDMODE_PRESERVE_SPECULAR_LIGHTING",
+"_EMISSION",
+"_EMISSIVE_COLOR_MAP",
+"_ENABLE_FOG_ON_TRANSPARENT",
+"_MATERIAL_FEATURE_CLEAR_COAT",
+"_METALLICGLOSSMAP",
+"_METALLICSPECGLOSSMAP",
+"_NORMALMAP",
+"_NORMALMAP_TANGENT_SPACE",
+"_NORMALMAP_TANGENT_SPACE0",
+"_NORMALMAP_TANGENT_SPACE1",
+"_NORMALMAP_TANGENT_SPACE2",
+"_NORMALMAP_TANGENT_SPACE3",
+"_SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A",
+"_SUNDISK_SIMPLE",
+"_SURFACE_TYPE_TRANSPARENT",
+"DEBUG_DISPLAY",
+"ETC1_EXTERNAL_ALPHA",
+"LIGHTLOOP_SINGLE_PASS",
+"LIGHTLOOP_TILE_PASS",
+"OUTPUT_SPLIT_LIGHTING",
+"SHADOWS_SHADOWMASK",
+"SHOW_LIGHT_CATEGORIES",
+ 
+-----------------------------------------------------------------------
+ Keywords -> Materials: 26
+-----------------------------------------------------------------------
+"_ALPHAPREMULTIPLY_ON",
+    Line
+    SideDisplays
+ 
+"_AXF_BRDF_TYPE_SVBRDF",
+    Metal
+ 
+"_BLENDMODE_ALPHA",
+    Glass_Transparent
+    Transparant
+ 
+"_BLENDMODE_PRESERVE_SPECULAR_LIGHTING",
+    Glass_Transparent
+    Transparant
+ 
+"_EMISSION",
+    Danger
+    Mainframe_Body
+ 
+"_EMISSIVE_COLOR_MAP",
+    Mainframe_Body
+    Serverbuilding_Serverroom
+ 
+"_ENABLE_FOG_ON_TRANSPARENT",
+    Glass_Transparent
+    Transparant
+ 
+"_MATERIAL_FEATURE_CLEAR_COAT",
+    Railing_Post
+ 
+"_METALLICGLOSSMAP",
+    Roof
+ 
+"_METALLICSPECGLOSSMAP",
+    Roof
+ 
+"_NORMALMAP",
+    Concrete_White
+    FloatingPlatform
+    Floor_A
+    Mainframe_Body
+    Roof
+ 
+"_NORMALMAP_TANGENT_SPACE",
+    Black
+    Blue
+    Brown
+    Concrete_White
+    Danger
+    DarkGrey
+    DefaultHDMaterial
+    DefaultHDMirrorMaterial
+    Default-Material
+    FloatingPlatform
+    Floor_A
+    Glass_Black
+    Glass_Transparent
+    Green
+    Grey
+    Mainframe_Body
+    Metal
+    No Name
+    Railing_Post
+    Red
+    Roof
+    Salmon
+    Serverbuilding_Ceiling
+    Serverbuilding_Floor
+    Serverbuilding_Serverroom
+    Serverbuilding_Walls_Inner
+    Silver
+    Transparant
+    Yellow
+ 
+"_NORMALMAP_TANGENT_SPACE0",
+    Mainframe_Body
+    Metal
+    Silver
+ 
+"_NORMALMAP_TANGENT_SPACE1",
+    Mainframe_Body
+    Metal
+    Silver
+ 
+"_NORMALMAP_TANGENT_SPACE2",
+    Mainframe_Body
+    Metal
+    Silver
+ 
+"_NORMALMAP_TANGENT_SPACE3",
+    Mainframe_Body
+    Metal
+    Silver
+ 
+"_SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A",
+    Roof
+ 
+"_SUNDISK_SIMPLE",
+    Default-Skybox
+ 
+"_SURFACE_TYPE_TRANSPARENT",
+    Glass_Transparent
+    Transparant
+ 
+"DEBUG_DISPLAY",
+    Hidden/HDRP/Deferred_10
+    Hidden/HDRP/Deferred_11
+    Hidden/HDRP/Deferred_12
+    Hidden/HDRP/Deferred_13
+    Hidden/HDRP/Deferred_14
+    Hidden/HDRP/Deferred_15
+    Hidden/HDRP/Deferred_8
+    Hidden/HDRP/Deferred_9
+ 
+"ETC1_EXTERNAL_ALPHA",
+    Sprites-Default
+ 
+"LIGHTLOOP_SINGLE_PASS",
+    Hidden/HDRP/Deferred_0
+    Hidden/HDRP/Deferred_1
+    Hidden/HDRP/Deferred_12
+    Hidden/HDRP/Deferred_13
+    Hidden/HDRP/Deferred_4
+    Hidden/HDRP/Deferred_5
+    Hidden/HDRP/Deferred_8
+    Hidden/HDRP/Deferred_9
+ 
+"LIGHTLOOP_TILE_PASS",
+    Hidden/HDRP/Deferred_10
+    Hidden/HDRP/Deferred_11
+    Hidden/HDRP/Deferred_14
+    Hidden/HDRP/Deferred_15
+    Hidden/HDRP/Deferred_2
+    Hidden/HDRP/Deferred_3
+    Hidden/HDRP/Deferred_6
+    Hidden/HDRP/Deferred_7
+ 
+"OUTPUT_SPLIT_LIGHTING",
+    Hidden/HDRP/Deferred_1
+    Hidden/HDRP/Deferred_11
+    Hidden/HDRP/Deferred_13
+    Hidden/HDRP/Deferred_15
+    Hidden/HDRP/Deferred_3
+    Hidden/HDRP/Deferred_5
+    Hidden/HDRP/Deferred_7
+    Hidden/HDRP/Deferred_9
+ 
+"SHADOWS_SHADOWMASK",
+    Hidden/HDRP/DebugViewMaterialGBuffer
+    Hidden/HDRP/Deferred_12
+    Hidden/HDRP/Deferred_13
+    Hidden/HDRP/Deferred_14
+    Hidden/HDRP/Deferred_15
+    Hidden/HDRP/Deferred_4
+    Hidden/HDRP/Deferred_5
+    Hidden/HDRP/Deferred_6
+    Hidden/HDRP/Deferred_7
+ 
+"SHOW_LIGHT_CATEGORIES",
+    DefaultHDTerrainMaterial
+    Hidden/HDRP/Sky/ProceduralSky
+    Hidden/HDRP/Sky/ProceduralSky
+ 
+-----------------------------------------------------------------------
+ Materials -> Keywords: 53
+-----------------------------------------------------------------------
+Black
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Blue
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Brown
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Concrete_White
+    "_NORMALMAP",
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Danger
+    "_EMISSION",
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+DarkGrey
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+DefaultHDMaterial
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+DefaultHDMirrorMaterial
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+DefaultHDTerrainMaterial
+    "SHOW_LIGHT_CATEGORIES",
+ 
+Default-Material
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Default-Skybox
+    "_SUNDISK_SIMPLE",
+ 
+FloatingPlatform
+    "_NORMALMAP",
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Floor_A
+    "_NORMALMAP",
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Glass_Black
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Glass_Transparent
+    "_BLENDMODE_ALPHA",
+    "_BLENDMODE_PRESERVE_SPECULAR_LIGHTING",
+    "_ENABLE_FOG_ON_TRANSPARENT",
+    "_NORMALMAP_TANGENT_SPACE",
+    "_SURFACE_TYPE_TRANSPARENT",
+ 
+Green
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Grey
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Hidden/HDRP/DebugViewMaterialGBuffer
+    "SHADOWS_SHADOWMASK",
+ 
+Hidden/HDRP/Deferred_0
+    "LIGHTLOOP_SINGLE_PASS",
+ 
+Hidden/HDRP/Deferred_1
+    "LIGHTLOOP_SINGLE_PASS",
+    "OUTPUT_SPLIT_LIGHTING",
+ 
+Hidden/HDRP/Deferred_10
+    "DEBUG_DISPLAY",
+    "LIGHTLOOP_TILE_PASS",
+ 
+Hidden/HDRP/Deferred_11
+    "DEBUG_DISPLAY",
+    "LIGHTLOOP_TILE_PASS",
+    "OUTPUT_SPLIT_LIGHTING",
+ 
+Hidden/HDRP/Deferred_12
+    "DEBUG_DISPLAY",
+    "LIGHTLOOP_SINGLE_PASS",
+    "SHADOWS_SHADOWMASK",
+ 
+Hidden/HDRP/Deferred_13
+    "DEBUG_DISPLAY",
+    "LIGHTLOOP_SINGLE_PASS",
+    "OUTPUT_SPLIT_LIGHTING",
+    "SHADOWS_SHADOWMASK",
+ 
+Hidden/HDRP/Deferred_14
+    "DEBUG_DISPLAY",
+    "LIGHTLOOP_TILE_PASS",
+    "SHADOWS_SHADOWMASK",
+ 
+Hidden/HDRP/Deferred_15
+    "DEBUG_DISPLAY",
+    "LIGHTLOOP_TILE_PASS",
+    "OUTPUT_SPLIT_LIGHTING",
+    "SHADOWS_SHADOWMASK",
+ 
+Hidden/HDRP/Deferred_2
+    "LIGHTLOOP_TILE_PASS",
+ 
+Hidden/HDRP/Deferred_3
+    "LIGHTLOOP_TILE_PASS",
+    "OUTPUT_SPLIT_LIGHTING",
+ 
+Hidden/HDRP/Deferred_4
+    "LIGHTLOOP_SINGLE_PASS",
+    "SHADOWS_SHADOWMASK",
+ 
+Hidden/HDRP/Deferred_5
+    "LIGHTLOOP_SINGLE_PASS",
+    "OUTPUT_SPLIT_LIGHTING",
+    "SHADOWS_SHADOWMASK",
+ 
+Hidden/HDRP/Deferred_6
+    "LIGHTLOOP_TILE_PASS",
+    "SHADOWS_SHADOWMASK",
+ 
+Hidden/HDRP/Deferred_7
+    "LIGHTLOOP_TILE_PASS",
+    "OUTPUT_SPLIT_LIGHTING",
+    "SHADOWS_SHADOWMASK",
+ 
+Hidden/HDRP/Deferred_8
+    "DEBUG_DISPLAY",
+    "LIGHTLOOP_SINGLE_PASS",
+ 
+Hidden/HDRP/Deferred_9
+    "DEBUG_DISPLAY",
+    "LIGHTLOOP_SINGLE_PASS",
+    "OUTPUT_SPLIT_LIGHTING",
+ 
+Hidden/HDRP/Sky/ProceduralSky
+    "SHOW_LIGHT_CATEGORIES",
+ 
+Hidden/HDRP/Sky/ProceduralSky
+    "SHOW_LIGHT_CATEGORIES",
+ 
+Line
+    "_ALPHAPREMULTIPLY_ON",
+ 
+Mainframe_Body
+    "_EMISSION",
+    "_EMISSIVE_COLOR_MAP",
+    "_NORMALMAP",
+    "_NORMALMAP_TANGENT_SPACE",
+    "_NORMALMAP_TANGENT_SPACE0",
+    "_NORMALMAP_TANGENT_SPACE1",
+    "_NORMALMAP_TANGENT_SPACE2",
+    "_NORMALMAP_TANGENT_SPACE3",
+ 
+Metal
+    "_AXF_BRDF_TYPE_SVBRDF",
+    "_NORMALMAP_TANGENT_SPACE",
+    "_NORMALMAP_TANGENT_SPACE0",
+    "_NORMALMAP_TANGENT_SPACE1",
+    "_NORMALMAP_TANGENT_SPACE2",
+    "_NORMALMAP_TANGENT_SPACE3",
+ 
+No Name
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Railing_Post
+    "_MATERIAL_FEATURE_CLEAR_COAT",
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Red
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Roof
+    "_METALLICGLOSSMAP",
+    "_METALLICSPECGLOSSMAP",
+    "_NORMALMAP",
+    "_NORMALMAP_TANGENT_SPACE",
+    "_SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A",
+ 
+Salmon
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Serverbuilding_Ceiling
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Serverbuilding_Floor
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Serverbuilding_Serverroom
+    "_EMISSIVE_COLOR_MAP",
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+Serverbuilding_Walls_Inner
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+SideDisplays
+    "_ALPHAPREMULTIPLY_ON",
+ 
+Silver
+    "_NORMALMAP_TANGENT_SPACE",
+    "_NORMALMAP_TANGENT_SPACE0",
+    "_NORMALMAP_TANGENT_SPACE1",
+    "_NORMALMAP_TANGENT_SPACE2",
+    "_NORMALMAP_TANGENT_SPACE3",
+ 
+Sprites-Default
+    "ETC1_EXTERNAL_ALPHA",
+ 
+Transparant
+    "_BLENDMODE_ALPHA",
+    "_BLENDMODE_PRESERVE_SPECULAR_LIGHTING",
+    "_ENABLE_FOG_ON_TRANSPARENT",
+    "_NORMALMAP_TANGENT_SPACE",
+    "_SURFACE_TYPE_TRANSPARENT",
+ 
+Yellow
+    "_NORMALMAP_TANGENT_SPACE",
+ 
+-----------------------------------------------------------------------
+ Shaders -> Materials: 10
+-----------------------------------------------------------------------
+"HDRP/Lit"
+    Black
+    Blue
+    Brown
+    Concrete_White
+    Danger
+    DarkGrey
+    DefaultHDMaterial
+    DefaultHDMirrorMaterial
+    Default-Material
+    FloatingPlatform
+    Floor_A
+    Glass_Black
+    Glass_Transparent
+    Green
+    Grey
+    Mainframe_Body
+    Metal
+    No Name
+    Railing_Post
+    Red
+    Roof
+    Salmon
+    Serverbuilding_Ceiling
+    Serverbuilding_Floor
+    Serverbuilding_Walls_Inner
+    Silver
+    Transparant
+    Yellow
+ 
+"HDRP/TerrainLit"
+    DefaultHDTerrainMaterial
+ 
+"Hidden/HDRP/DebugViewMaterialGBuffer"
+    Hidden/HDRP/DebugViewMaterialGBuffer
+ 
+"Hidden/HDRP/Deferred"
+    Hidden/HDRP/Deferred_0
+    Hidden/HDRP/Deferred_1
+    Hidden/HDRP/Deferred_10
+    Hidden/HDRP/Deferred_11
+    Hidden/HDRP/Deferred_12
+    Hidden/HDRP/Deferred_13
+    Hidden/HDRP/Deferred_14
+    Hidden/HDRP/Deferred_15
+    Hidden/HDRP/Deferred_2
+    Hidden/HDRP/Deferred_3
+    Hidden/HDRP/Deferred_4
+    Hidden/HDRP/Deferred_5
+    Hidden/HDRP/Deferred_6
+    Hidden/HDRP/Deferred_7
+    Hidden/HDRP/Deferred_8
+    Hidden/HDRP/Deferred_9
+ 
+"Hidden/HDRP/Sky/ProceduralSky"
+    Hidden/HDRP/Sky/ProceduralSky
+    Hidden/HDRP/Sky/ProceduralSky
+ 
+"Shader Graphs/GlowPulse_Vertical"
+    Serverbuilding_Serverroom
+ 
+"Shader Graphs/Interactable_Emission"
+    SideDisplays
+ 
+"Shader Graphs/Unlit_Datalines"
+    Line
+ 
+"Skybox/Procedural"
+    Default-Skybox
+ 
+"Sprites/Default"
+    Sprites-Default
+ 

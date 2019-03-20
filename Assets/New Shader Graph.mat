@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Shader Graph
+  m_Shader: {fileID: 4800000, guid: 875c936122b3ca34f98910879bd86a25, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_34D665B4:
+        m_Texture: {fileID: 2800000, guid: a8d38587573a5f34c91c4ae0fbd8bfef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_4965218D:
+        m_Texture: {fileID: 2800000, guid: ac5e405e0864ab846af935942a12a932, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_8CA4A89C:
+        m_Texture: {fileID: 2800000, guid: 87ce03bd447ccce48bbff87ac0d8355f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_CC33C98C:
+        m_Texture: {fileID: 2800000, guid: fab85e0cacda9644a99e5182a86b71f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_CF3BD248:
+        m_Texture: {fileID: 2800000, guid: fab85e0cacda9644a99e5182a86b71f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_F1B2C0A6:
+        m_Texture: {fileID: 2800000, guid: a8d38587573a5f34c91c4ae0fbd8bfef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_FA61C787:
+        m_Texture: {fileID: 2800000, guid: 87ce03bd447ccce48bbff87ac0d8355f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_375EAA02_Texture:
+        m_Texture: {fileID: 2800000, guid: 445e9f61e84a1b4458f84199d904f3e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_59BDF1AD_Texture:
+        m_Texture: {fileID: 2800000, guid: 87ce03bd447ccce48bbff87ac0d8355f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_5A8C483E_Texture:
+        m_Texture: {fileID: 2800000, guid: 445e9f61e84a1b4458f84199d904f3e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_3688B8FA_Out:
+        m_Texture: {fileID: 2800000, guid: ac5e405e0864ab846af935942a12a932, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_36FDB2FB_Out:
+        m_Texture: {fileID: 2800000, guid: 644d9dd69409ba44280badfb9ee92374, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_A2780517_Out:
+        m_Texture: {fileID: 2800000, guid: 87ce03bd447ccce48bbff87ac0d8355f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1C032024: 1
+    - Vector1_2A3C8223: 1
+    - Vector1_49831DBA: 0
+    - Vector1_966DDC44: 1
+    - Vector1_EBDE8A5E: 1
+    m_Colors:
+    - Color_6551C43F: {r: 0.31038618, g: 0.5465521, b: 0.7075471, a: 1}
+    - Vector2_601F22F7: {r: 1, g: 0, b: 0, a: 0}
+    - Vector2_6F2856AD: {r: 3, g: 3, b: 0, a: 0}
