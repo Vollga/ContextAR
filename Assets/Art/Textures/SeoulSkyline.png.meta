@@ -35,7 +35,7 @@ TextureImporter:
     aniso: 2
     mipBias: -100
     wrapU: 0
-    wrapV: 0
+    wrapV: 1
     wrapW: 0
   nPOTScale: 1
   lightmap: 0
