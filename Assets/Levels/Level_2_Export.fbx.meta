@@ -796,6 +796,7 @@ ModelImporter:
     4300294: Stairs_A
     4300296: Walls_2
     4300298: Walls_1
+    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material

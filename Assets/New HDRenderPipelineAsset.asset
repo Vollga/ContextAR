@@ -175,8 +175,8 @@ MonoBehaviour:
       planarReflectionProbeCacheSize: 2
       planarReflectionTextureSize: 1024
       reflectionProbeCacheSize: 64
-      reflectionCubemapSize: 256
-      reflectionCacheCompressed: 0
+      reflectionCubemapSize: 512
+      reflectionCacheCompressed: 1
       planarReflectionCacheCompressed: 0
       skyReflectionSize: 512
       skyLightingOverrideLayerMask:
@@ -189,8 +189,8 @@ MonoBehaviour:
       maxEnvLightsOnScreen: 64
       maxDecalsOnScreen: 512
     hdShadowInitParams:
-      shadowAtlasResolution: 4096
-      maxShadowRequests: 128
+      shadowAtlasResolution: 2048
+      maxShadowRequests: 256
       shadowMapsDepthBits: 32
       useDynamicViewportRescale: 1
       shadowQuality: 2
@@ -198,7 +198,7 @@ MonoBehaviour:
       drawDistance: 1000
       atlasWidth: 4096
       atlasHeight: 4096
-      perChannelMask: 0
+      perChannelMask: 1
   allowShaderVariantStripping: 1
   enableSRPBatcher: 0
   enableVariantStrippingLog: 0

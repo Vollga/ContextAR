@@ -204,7 +204,7 @@ Material:
     - _IridescenceThickness: 1
     - _LinkDetailsWithBase: 1
     - _MaterialID: 1
-    - _Metallic: 0.752
+    - _Metallic: 0
     - _NormalMapSpace: 0
     - _NormalScale: 1
     - _OcclusionStrength: 1
@@ -256,9 +256,9 @@ Material:
     - _ZTestModeDistortion: 4
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 0.16078432}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0.05490196}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.05490196}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}

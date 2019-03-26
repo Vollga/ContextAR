@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Line
-  m_Shader: {fileID: 4800000, guid: 0e7a34c8314b2aa4ab1724a7f5d8c563, type: 3}
+  m_Shader: {fileID: 4800000, guid: 4629b730639a6a7409c64e584ac545e0, type: 3}
   m_ShaderKeywords: _ALPHAPREMULTIPLY_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -62,7 +62,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_AFBCAE41: 3
+    - Vector1_AFBCAE41: -1.02
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -82,7 +82,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 0
     m_Colors:
-    - Color_6A83D1C8: {r: 0, g: 1, b: 1, a: 1}
+    - Color_6A83D1C8: {r: 1, g: 0.6666667, b: 0, a: 1}
     - Color_7F9337B1: {r: 1, g: 0.6666667, b: 0, a: 1}
     - Color_FD05D320: {r: 0.056603767, g: 0.056603767, b: 0.056603767, a: 0}
     - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
