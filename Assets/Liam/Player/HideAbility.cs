@@ -18,10 +18,13 @@ public class HideAbility : MonoBehaviour
 
     private RigidbodyFirstPersonController controller;
 
+    private GameObject playerObject;
+
     private void Start()
     {
-        controller = gameObject.GetComponent<RigidbodyFirstPersonController>();
+        controller = Player.player.gameObject.GetComponent<RigidbodyFirstPersonController>();
         isHiding = false;
+        playerObject = Player.player.gameObject;
     }
 
     private void Update()
@@ -56,14 +59,14 @@ public class HideAbility : MonoBehaviour
     private void Hide()
     {
         controller.enabled = false;
-        gameObject.layer = 2;
+        playerObject.layer = 2;
         isHiding = true;
     }
 
     private void Unhide()
     {
         controller.enabled = true;
-        gameObject.layer = 0;
+        playerObject.layer = 0;
         isHiding = false;
     }
 }

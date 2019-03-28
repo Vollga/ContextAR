@@ -392,7 +392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visionRange: 10
-  visionAngle: 65
+  visionAngle: 45
 --- !u!1 &5891962990884078684
 GameObject:
   m_ObjectHideFlags: 0

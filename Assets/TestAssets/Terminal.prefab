@@ -135,6 +135,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d9d77e7d34478d4d91b5aba3e6af587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHackTime: 5
+  maxHackTime: 4
   linkedCamera: {fileID: 0}
   downTime: 5
