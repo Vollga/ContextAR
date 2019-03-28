@@ -14,28 +14,27 @@ public class AIVision : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Player");
+        player = Player.player.gameObject;
     }
 
     private void Update()
     {
-        if (PlayerInVision())
+        if (PlayerInVision() && !Player.player.HasBeenSpotted)
         {
-            Debug.Log("Player In Vision");
-        }
-        else
-        {
-            Debug.Log("Player Out Of Vision");
+            Player.player.HasBeenSpotted = true;
         }
     }
 
     public bool PlayerInVision()
     {
         bool playerInVision = false;
-        if (PlayerInVisionAngle()) {
+        if (PlayerInVisionAngle())
+        {
             RaycastHit hit;
-            if (Physics.Raycast(transform.position, player.transform.position-transform.position, out hit, visionRange)) {
-                if (hit.transform.gameObject == player) {
+            if (Physics.Raycast(transform.position, player.transform.position - transform.position, out hit, visionRange))
+            {
+                if (hit.transform.gameObject == player)
+                {
                     playerInVision = true;
                 }
             }

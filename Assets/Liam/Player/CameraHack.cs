@@ -13,27 +13,36 @@ public class CameraHack : MonoBehaviour
     [SerializeField]
     private string hackButton = "Fire1";
 
-    private CameraBox currentlyHackedCameraBox;
+    //[SerializeField]
+    //private GameObject hackProgressBar;
+
+    private Hackable currentlyHackedObject;
     private int cameraBoxLayer = 9;
+    //private GameObject instantiatedHackBar;
 
     private void Update()
     {
         Debug.DrawRay(transform.position, transform.forward * hackRange, Color.red);
         if (Input.GetButtonDown(hackButton)) {
             DetectCameraBox();
+            //if(currentlyHackedObject != null)
+            //instantiatedHackBar = Instantiate(hackProgressBar, GameObject.Find("Canvas").transform);
         }
 
         if (Input.GetButton(hackButton)) {
-            if (currentlyHackedCameraBox != null && !currentlyHackedCameraBox.IsHacked()) {
-                currentlyHackedCameraBox.HackCamera(hackSpeed * Time.deltaTime);
+            if (currentlyHackedObject != null && !currentlyHackedObject.IsHacked()) {
+                currentlyHackedObject.HackCamera(hackSpeed * Time.deltaTime);
             }
         }
 
         if (Input.GetButtonUp(hackButton)) {
-            if (currentlyHackedCameraBox != null)
+            if (currentlyHackedObject != null)
             {
-                currentlyHackedCameraBox.StopHacking();
-                currentlyHackedCameraBox = null;
+                //if (instantiatedHackBar != null) {
+                //    Destroy(instantiatedHackBar);
+                //}
+                currentlyHackedObject.StopHacking();
+                currentlyHackedObject = null;
             }
         }
     }
@@ -41,9 +50,9 @@ public class CameraHack : MonoBehaviour
     private void DetectCameraBox() {
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit, hackRange, 1<<cameraBoxLayer)) {
-            currentlyHackedCameraBox = hit.transform.gameObject.GetComponent<CameraBox>();
+            currentlyHackedObject = hit.transform.gameObject.GetComponent<Hackable>();
             return;
         }
-        currentlyHackedCameraBox = null;
+        currentlyHackedObject = null;
     }
 }

@@ -19,30 +19,40 @@ public class UIController : MonoBehaviour
     void Start()
     {
         UIBorders = GameObject.FindGameObjectsWithTag("UI_Border");
+        OnRespawn();
+        Player.player.spotted += OnDiscovery;
+        Player.player.respawned += OnRespawn;
     }
-    
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (_isDiscovered != _check)
-        {
-            _check = _isDiscovered;
-
-            if (_isDiscovered)
-            {
-                print("You're discovered!");
-                discoveredOverlay.SetActive(true);
-                ChangeUIColour(UIBorders, color_Discovered);
-
-            } else if (!_isDiscovered)
-            {
-                print("You're not discovered!");
-                discoveredOverlay.SetActive(false);
-                ChangeUIColour(UIBorders, color_Normal);
-            }
-        }
+    public void OnDiscovery() {
+        discoveredOverlay.SetActive(true);
+        ChangeUIColour(UIBorders, color_Discovered);
     }
+
+    public void OnRespawn() {
+        discoveredOverlay.SetActive(false);
+        ChangeUIColour(UIBorders, color_Normal);
+    }
+
+    //// Update is called once per frame
+    //void Update()
+    //{
+    //    if (_isDiscovered != _check)
+    //    {
+    //        _check = _isDiscovered;
+
+    //        if (_isDiscovered)
+    //        {
+    //            print("You're discovered!");
+                
+
+    //        } else if (!_isDiscovered)
+    //        {
+    //            print("You're not discovered!");
+                
+    //        }
+    //    }
+    //}
 
     void ChangeUIColour(GameObject[] gObjects, Color color)
     {

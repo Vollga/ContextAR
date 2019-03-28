@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4977812499242695967}
   - component: {fileID: 686319541626960079}
   - component: {fileID: 4724828561207926627}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Camera_Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 7199757051956847171}
   - component: {fileID: 6169992011334033190}
   - component: {fileID: 6929655115858407584}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,13 +105,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759434976322863384}
-  m_LocalRotation: {x: 1.2246469e-16, y: -2.9995195e-32, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0099, z: -0.3403}
+  m_LocalRotation: {x: -0, y: -0, z: -1.3877786e-16, w: 1}
+  m_LocalPosition: {x: 0, y: -0.009899974, z: -0.34030002}
   m_LocalScale: {x: 1, y: 1, z: 0.59118}
   m_Children:
   - {fileID: 8221748796323377955}
-  m_Father: {fileID: 5906219974516151018}
-  m_RootOrder: 0
+  m_Father: {fileID: 2793610650474573718}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6169992011334033190
 MeshFilter:
@@ -167,7 +167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2296019687670700316}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 8087116277337598987}
   - component: {fileID: 6371717754185840002}
   - component: {fileID: 5364364359137783111}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 5906219974516151018}
   - component: {fileID: 1200467026091553907}
   - component: {fileID: 3999686056145728542}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Camera_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -297,7 +297,7 @@ Transform:
   m_LocalPosition: {x: 7.02696e-18, y: 0.1264731, z: -0.00085500657}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 7199757051956847171}
+  - {fileID: 2793610650474573718}
   m_Father: {fileID: 8087116277337598987}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -32.639, y: 0, z: 0}
@@ -348,6 +348,83 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &5011479574255646869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7595430656509423137}
+  - component: {fileID: 8319079271272192015}
+  m_Layer: 2
+  m_Name: CameraVision
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7595430656509423137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5011479574255646869}
+  m_LocalRotation: {x: 0.0019853315, y: 0.9979005, z: -0.0375916, w: 0.052702334}
+  m_LocalPosition: {x: 0.007, y: -0.024, z: -0.465}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2793610650474573718}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 4.315, y: 173.95401, z: 0}
+--- !u!114 &8319079271272192015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5011479574255646869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eefca9d4edf60d448d62f1fea297465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visionRange: 10
+  visionAngle: 65
+--- !u!1 &5891962990884078684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2793610650474573718}
+  m_Layer: 2
+  m_Name: CameraVisionContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2793610650474573718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5891962990884078684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7595430656509423137}
+  - {fileID: 7199757051956847171}
+  m_Father: {fileID: 5906219974516151018}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7274526389535987730
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,7 +437,7 @@ GameObject:
   - component: {fileID: 8327964238674568946}
   - component: {fileID: 4204915944031694854}
   - component: {fileID: 2877746423096643622}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ConeLight (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
