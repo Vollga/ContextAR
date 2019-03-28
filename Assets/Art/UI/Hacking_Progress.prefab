@@ -148,7 +148,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 047fba0e4e6a27d42b8f5b10bbdba296, type: 3}
   m_Type: 3
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 0
   m_FillAmount: 1
@@ -167,4 +167,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c144ab2ead9cb449fe68a40e10da08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  progressTime: 3
+  progressTime: 2.5

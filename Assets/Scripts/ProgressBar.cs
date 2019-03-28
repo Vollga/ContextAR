@@ -16,14 +16,14 @@ public class ProgressBar : MonoBehaviour
     void Start()
     {
         barImage = gameObject.GetComponent<Image>();
-        timeStart = Time.unscaledTime;
-        timeEnd = Time.unscaledTime + progressTime;
+        timeStart = Time.time;
+        timeEnd = Time.time + progressTime;
     }
 
     // Update is called once per frame
     void Update()
     {
-        fill = (Time.unscaledTime - timeStart) / timeEnd;
+        fill = (Time.time - timeStart) / timeEnd;
         barImage.fillAmount = fill;
         if (fill > 1.1f)
         {
